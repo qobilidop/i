@@ -1,0 +1,9 @@
+# https://git-scm.com/docs/git-config
+
+[core]
+    editor = code --wait
+
+[user]
+    name = Bili Dong
+    email = qobilidop@gmail.com
+    useConfigOnly = true
