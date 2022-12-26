@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # Set up my MacOS machine from scratch.
-set -e
+set -ex
 
 # Install Homebrew
 # https://brew.sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+command -v brew || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Install essential packages
 brew tap homebrew/cask-fonts
@@ -32,12 +32,13 @@ code --install-extension ms-vscode.remote-explorer
 code --install-extension timonwong.shellcheck
 
 # Link config files
-git clone https://github.com/qobilidop/i.git ~/i
-cd ~/i/env/macos
-stow -t ~ config
+[ ! -d "$HOME/i" ] && git clone https://github.com/qobilidop/i.git ~/i
+cd ~/i/machine/macos
+stow --no-folding -t ~ config
 
 # Copy SSH key
 cp ~/Documents/home/.ssh/id_ed25519 ~/.ssh/id_ed25519
+chmod 600 ~/.ssh/id_ed25519
 
 # Switch repo remote
 cd ~/i

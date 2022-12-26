@@ -1,5 +1,5 @@
 export EDITOR="code"
-export PATH="~/i/machine/macos/bin:$PATH"
+export PATH="$HOME/i/machine/macos/bin:$PATH"
 
 # https://starship.rs/#zsh
 eval "$(starship init zsh)"
