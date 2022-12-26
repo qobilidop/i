@@ -26,6 +26,7 @@ mas install 441258766 # Magnet
 
 # Install essential VS Code extensions
 code --install-extension eamodio.gitlens
+code --install-extension jdinhlife.gruvbox
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode-remote.remote-containers
 code --install-extension ms-vscode.remote-explorer
@@ -33,7 +34,7 @@ code --install-extension timonwong.shellcheck
 
 # Link config files
 [ ! -d "$HOME/i" ] && git clone https://github.com/qobilidop/i.git ~/i
-cd ~/i/machine/macos
+cd ~/i/studio/macos
 stow --no-folding -t ~ config
 
 # Copy SSH key
