@@ -30,6 +30,7 @@ code --install-extension jdinhlife.gruvbox
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode-remote.remote-containers
 code --install-extension ms-vscode.remote-explorer
+code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension timonwong.shellcheck
 
 # Link config files
