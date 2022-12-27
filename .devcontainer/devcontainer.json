@@ -1,0 +1,19 @@
+// https://containers.dev/implementors/json_reference/
+{
+    "name": "i",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "privileged": true,
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "eamodio.gitlens",
+                "ms-azuretools.vscode-docker",
+                "streetsidesoftware.code-spell-checker",
+                "timonwong.shellcheck"
+            ]
+        }
+    }
+}
