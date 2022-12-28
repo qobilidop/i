@@ -11,6 +11,7 @@
             "extensions": [
                 "astro-build.astro-vscode",
                 "eamodio.gitlens",
+                "jock.svg",
                 "ms-azuretools.vscode-docker",
                 "streetsidesoftware.code-spell-checker",
                 "timonwong.shellcheck"
