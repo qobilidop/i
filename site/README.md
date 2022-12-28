@@ -1,3 +1,3 @@
-# Bili's Website
+# Website
 
-This is [Bili](https://qobilidop.dev)'s personal website, built with [Astro](https://astro.build).
+My website, built with [Astro](https://astro.build).

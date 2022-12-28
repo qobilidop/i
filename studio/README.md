@@ -1,3 +1,3 @@
-# Studio Setup
+# Work Studio Setup
 
-Set up a computer from scratch as my working studio.
+My work studio (computer) setup.
