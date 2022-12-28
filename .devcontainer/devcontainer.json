@@ -9,6 +9,7 @@
     "customizations": {
         "vscode": {
             "extensions": [
+                "astro-build.astro-vscode",
                 "eamodio.gitlens",
                 "ms-azuretools.vscode-docker",
                 "streetsidesoftware.code-spell-checker",
