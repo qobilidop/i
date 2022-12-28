@@ -35,7 +35,7 @@ code --install-extension timonwong.shellcheck
 
 # Link config files
 [ ! -d "$HOME/i" ] && git clone https://github.com/qobilidop/i.git ~/i
-cd ~/i/studio/macos
+cd ~/i/devenv/macos
 stow --no-folding -t ~ config
 
 # Copy SSH key
