@@ -26,9 +26,11 @@ mas install 441258766 # Magnet
 
 # Install essential VS Code extensions
 code --install-extension eamodio.gitlens
+code --install-extension esbenp.prettier-vscode
 code --install-extension jdinhlife.gruvbox
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-vscode-remote.remote-containers
+code --install-extension ms-vscode-remote.remote-ssh-edit
 code --install-extension ms-vscode.remote-explorer
 code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension timonwong.shellcheck

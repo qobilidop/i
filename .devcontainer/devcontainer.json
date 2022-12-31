@@ -1,21 +1,22 @@
 // https://containers.dev/implementors/json_reference/
 {
-    "name": "i",
-    "build": {
-        "dockerfile": "Dockerfile",
-        "context": ".."
-    },
-    "privileged": true,
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "astro-build.astro-vscode",
-                "eamodio.gitlens",
-                "jock.svg",
-                "ms-azuretools.vscode-docker",
-                "streetsidesoftware.code-spell-checker",
-                "timonwong.shellcheck"
-            ]
-        }
+  "name": "i",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "privileged": true,
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "astro-build.astro-vscode",
+        "eamodio.gitlens",
+        "esbenp.prettier-vscode",
+        "jock.svg",
+        "ms-azuretools.vscode-docker",
+        "streetsidesoftware.code-spell-checker",
+        "timonwong.shellcheck"
+      ]
     }
+  }
 }

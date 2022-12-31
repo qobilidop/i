@@ -1,0 +1,12 @@
+{
+  "cSpell.enableFiletypes": ["astro"],
+  "cSpell.language": "en,en-US",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
+  }
+}

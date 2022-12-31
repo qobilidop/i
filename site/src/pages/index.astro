@@ -1,15 +1,84 @@
 ---
+import Layout from "../layouts/Layout.astro";
+import avatar from "../icons/avatar.svg";
+const page_title = "qobilidop";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/qobilidop-white.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>qobilidop</title>
-	</head>
-	<body>
-		<h1>Bili's Website</h1>
-	</body>
-</html>
+<Layout page_title={page_title}>
+  <div class="container">
+    <div class="center">
+      <div class="avatar"><img src={avatar} /></div>
+      <div class="greeting">
+        <h1>Hi! I'm Bili Dong.</h1>
+      </div>
+      <div class="intro">
+        <p>I'm a software engineer by profession and by interest.</p>
+        <p>
+          In my day job, I work on <a href="https://p4.org">P4</a> and SmartNIC in
+          the background of data center networking.
+        </p>
+        <p>
+          Outside work, I'm broadly interested in computer systems and
+          programming languages. My dream is to contribute to some influential
+          open-source projects in these areas.
+        </p>
+        <p>
+          You can learn more about me on:
+          <ul>
+            <li>
+              GitHub:
+              <a href="https://github.com/qobilidop">@qobilidop</a>
+            </li>
+            <li>
+              LinkedIn:
+              <a href="https://www.linkedin.com/in/qobilidop">@qobilidop</a>
+            </li>
+          </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .container {
+    min-height: 100%;
+    min-width: 100%;
+    display: grid;
+  }
+
+  .center {
+    max-width: 480px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "avatar greeting"
+      "intro intro";
+  }
+
+  .avatar {
+    grid-area: avatar;
+  }
+
+  .avatar img {
+    height: 100px;
+  }
+
+  .greeting {
+    grid-area: greeting;
+    display: grid;
+  }
+
+  .greeting h1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 32px;
+  }
+
+  .intro {
+    grid-area: intro;
+  }
+</style>
