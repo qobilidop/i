@@ -1,6 +1,6 @@
 # I
 
-[Bili](https://qobilidop.dev)'s personal tooling and documentation, including:
+[Bili](https://qobilidop.dev)'s personal configuration, tooling, and documentation, including:
 
 - [`devenv/`](devenv/): development environment
 - [`note/`](note/): notebook
