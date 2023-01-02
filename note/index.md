@@ -1,11 +1,15 @@
 # Bili's Notebook
 
-This is [Bili](https://qobilidop.dev)'s personal notebook, built with [Obsidian](https://obsidian.md).
+Hi, I'm [Bili](https://qobilidop.dev). This is my personal notebook, built with [Obsidian](https://obsidian.md).
+
+I'm publishing it in the open with the hope that someone else might occasionally find something useful here.
+
+Be warned that I might change my note structure dramatically from time to time, so don't rely on any link to any page. They are almost destined to break. If you find anything useful here, feel free to let me know. I could export the content to a more permanent format, like a blog post.
 
 ## Entrypoints
 
-Professionally, I'm currently focusing on [[p4|P4]] and [[smartnic|SmartNIC]] in depth, and [[data-center-networking|data center networking]] in breadth.
+Professionally, I'm currently focusing on [[p4|P4]] and [[smartnic|SmartNIC]] in the background of [[dcn|data center networking]].
 
-In my off-work hours, I tried to learn [[computer-systems|computer systems]] better. I wasn't a computer science major in undergrad and kind of rushed through a master's in computer science under the pressure to find a job. Now that I don't have the job pressure, it's time for me to learn all these topics in the best way I could think of, which is to implement a toy version of all these fundamental system softwares and hardware designs.
+In my off-work hours, I'm broadly interested in [[sys|computer systems]] and [[pl|programming languages]]. I enjoy learning them and doing personal projects in these domains.
 
-Outside of these systematic study, I enjoy learning random things, consuming whatever interests me, and leaving [[latest|marks]] sometimes.
+Outside these systematic studies, I keep a [[log]] to record some of my other activities and to keep some bookmarks for my future reference.
