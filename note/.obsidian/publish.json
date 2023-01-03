@@ -1,0 +1,13 @@
+{
+  "siteId": "24d1ff0531feeb0e0d40c0e719893875",
+  "host": "publish-01.obsidian.md",
+  "included": [
+    "log",
+    "topic",
+    "source/annotation"
+  ],
+  "excluded": [
+    "source/archive",
+    "source/cache"
+  ]
+}

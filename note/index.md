@@ -10,6 +10,6 @@ Be warned that I might change my note structure dramatically from time to time, 
 
 Professionally, I'm currently focusing on [[p4|P4]] and [[smartnic|SmartNIC]] in the background of [[dcn|data center networking]].
 
-In my off-work hours, I'm broadly interested in [[sys|computer systems]] and [[pl|programming languages]]. I enjoy learning them and doing personal projects in these domains.
+In my off-work hours, I'm broadly interested in [[sys|computer systems]] and [[pl|programming languages]].
 
-Outside these systematic studies, I keep a [[log]] to record some of my other activities and to keep some bookmarks for my future reference.
+I also keep a [[log]] to record some of my life.
